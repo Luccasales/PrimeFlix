@@ -1,0 +1,37 @@
+.content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.3em;
+  margin-top: 2em;
+}
+
+.text {
+  font-size: 1.1em;
+  margin-top: 0.5em;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.icons li {
+  list-style: none;
+}
+
+.github,
+.instagram {
+  font-size: 30px;
+  transition: transfor 0.3 ease;
+}
+
+.github:hover,
+.instagram:hover {
+  transform: scale(1.2); /* Efeito de aumento ao passar o mouse */
+}

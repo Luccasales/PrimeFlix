@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.editButton {
+  border-radius: 15px;
+  height: 2em;
+  width: 6em;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+.editButton:hover {
+  background-color: #696969;
+  color: aliceblue;
+}

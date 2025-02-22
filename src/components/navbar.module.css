@@ -1,0 +1,21 @@
+.menu {
+  padding: 2em;
+  background-color: black;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.menu a:hover {
+  color: #696969;
+}

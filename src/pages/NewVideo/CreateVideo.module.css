@@ -1,0 +1,42 @@
+.form_video {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.form_video label {
+  display: flex;
+  flex-direction: column; /* Empilha o texto do label e o input */
+  align-items: flex-start; /* Alinha o texto do label à esquerda */
+  margin-bottom: 15px;
+  width: 35em;
+}
+
+.form_video input {
+  margin-top: 5px; /* Espaço entre o label e o input */
+  width: 100%;
+  height: 1.8em;
+  outline: none;
+}
+
+.form_video input:focus {
+  background-color: grey;
+  color: white;
+}
+
+.form_video button {
+  margin: 15px;
+  width: 35em;
+  padding: 3px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.form_video button:hover {
+  background-color: green;
+  color: white;
+}

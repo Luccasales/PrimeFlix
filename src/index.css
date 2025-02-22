@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #111111;
+  color: white;
+}
+
+.buttons-accept,
+.buttons-cancel {
+  border-radius: 15px;
+  height: 2em;
+  width: 6em;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+.buttons-accept:hover,
+.buttons-cancel:hover {
+  background-color: #696969;
+  color: rgb(241, 247, 253);
+}
